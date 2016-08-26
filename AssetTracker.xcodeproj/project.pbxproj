@@ -15,6 +15,7 @@
 		A72BFC7C1AEED3E700339D83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72BFC7B1AEED3E700339D83 /* Images.xcassets */; };
 		A72BFC7F1AEED3E700339D83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A72BFC7D1AEED3E700339D83 /* LaunchScreen.xib */; };
 		A72BFC8B1AEED3E700339D83 /* AssetTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72BFC8A1AEED3E700339D83 /* AssetTrackerTests.m */; };
+		A72BFC961AEED4A400339D83 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = A72BFC951AEED4A400339D83 /* Track.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		A72BFC841AEED3E700339D83 /* AssetTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72BFC891AEED3E700339D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A72BFC8A1AEED3E700339D83 /* AssetTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetTrackerTests.m; sourceTree = "<group>"; };
+		A72BFC941AEED4A400339D83 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Track.h; path = ../Track.h; sourceTree = "<group>"; };
+		A72BFC951AEED4A400339D83 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Track.m; path = ../Track.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				A72BFC701AEED3E700339D83 /* AppDelegate.m */,
 				A72BFC751AEED3E700339D83 /* ViewController.h */,
 				A72BFC761AEED3E700339D83 /* ViewController.m */,
+				A72BFC941AEED4A400339D83 /* Track.h */,
+				A72BFC951AEED4A400339D83 /* Track.m */,
 				A72BFC781AEED3E700339D83 /* Main.storyboard */,
 				A72BFC7B1AEED3E700339D83 /* Images.xcassets */,
 				A72BFC7D1AEED3E700339D83 /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 				A72BFC711AEED3E700339D83 /* AppDelegate.m in Sources */,
 				A72BFC741AEED3E700339D83 /* AssetTracker.xcdatamodeld in Sources */,
 				A72BFC771AEED3E700339D83 /* ViewController.m in Sources */,
+				A72BFC961AEED4A400339D83 /* Track.m in Sources */,
 				A72BFC6E1AEED3E700339D83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
